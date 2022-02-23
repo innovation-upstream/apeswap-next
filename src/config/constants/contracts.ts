@@ -19,6 +19,7 @@ export default {
   nativeWrapped: {
     97: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
     56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
   },
   lottery: {
     97: '0xe42Ff4758C37ccC3A54004b176384477bbBe70D6',
@@ -52,6 +53,9 @@ export default {
   nonFungibleApes: {
     56: '0x6afC012783e3a6eF8C5f05F8EeE2eDeF6a052Ec4',
     97: '0x34e9f595c4e00bf3b9149224e3109c9311267620',
+  },
+  nonFungibleBananas: {
+    56: '0x9f707A412302a3aD64028A9F73f354725C992081',
   },
   rabbitMintingFarm: {
     56: '0x1C99222F857C1d72234703eC5b9Ed88089Bd7091',

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { getBurningGames } from 'hooks/api'
+import { getBurningGames } from '../../hooks/api'
 
 const useFetchBurningGames = () => {
   const [state, setState] = useState({

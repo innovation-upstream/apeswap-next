@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { getPromosHome } from 'hooks/api'
+import { getPromosHome } from '../../hooks/api'
 
 const useFetchPromoHome = () => {
   const [state, setState] = useState({

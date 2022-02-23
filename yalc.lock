@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@isioma/uikit": {
+      "signature": "cf2b7736b421166b0b2c434238a0b926",
+      "file": true,
+      "replaced": "^1.0.2"
+    }
+  }
+}

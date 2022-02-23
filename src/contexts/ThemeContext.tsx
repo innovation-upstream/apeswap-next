@@ -3,18 +3,19 @@ import { ThemeProvider as SCThemeProvider } from 'styled-components'
 import { light, dark } from '@apeswapfinance/uikit'
 
 const CACHE_KEY = 'IS_DARK'
-
+const isBrowser = typeof window === "object"
 const ThemeContext = React.createContext({ isDark: null, toggleTheme: () => null })
 
 const ThemeContextProvider = ({ children }) => {
   const [isDark, setIsDark] = useState(() => {
-    const isDarkUserSetting = localStorage.getItem(CACHE_KEY)
+    const isDarkUserSetting = isBrowser ? window?.localStorage.getItem(CACHE_KEY) : undefined
     return isDarkUserSetting ? JSON.parse(isDarkUserSetting) : true
   })
 
   const toggleTheme = () => {
     setIsDark((prevState) => {
-      localStorage.setItem(CACHE_KEY, JSON.stringify(!prevState))
+      if (isBrowser)
+        window.localStorage.setItem(CACHE_KEY, JSON.stringify(!prevState))
       return !prevState
     })
   }
