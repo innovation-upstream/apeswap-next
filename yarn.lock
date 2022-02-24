@@ -1893,10 +1893,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@isioma/uikit@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@isioma/uikit/-/uikit-1.0.7.tgz#7480cffc09892ce5a6dd47579624dccd4d9e7e6e"
-  integrity sha512-qWikq8zdLstgpZ1M1QiYAbwJ7Nazwyf/gA6oQOBcIvTn1aOVM8hJvNm3lvlTyHDyrni9WNvO3KDQbIaBbc05JA==
+"@isioma/uikit@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@isioma/uikit/-/uikit-1.0.8.tgz#04cce24356bf3e9c8d32082fae81adc172efc44e"
+  integrity sha512-qISWjFrnaT0RjO7IRL7feBnnjNJpgx6QYAV0yOyw7COrCyd/mq/ZQUTZbJ6m+nL3W+4R2GIbPaEUYLSF3+5Z8g==
   dependencies:
     "@emotion/react" "^11.7.1"
     "@types/lodash" "^4.14.162"
